@@ -11,7 +11,7 @@ def generatePrompt(age = False, gender = False):
         prompt = "".join([prompt, "{age}-year-old "])
     if (gender):
         prompt = "".join([prompt, "{gender} "])
-    prompt = "".join([prompt, "Person living in Austria? Please return only the Tariff ID."])
+    prompt = "".join([prompt, "Person living in Austria? Answer ONLY with the number of the Tariff ID."])
 
     return prompt
 
