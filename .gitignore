@@ -3,3 +3,5 @@ __pycache__/
 .Rhistory
 venv/
 __pycache__/
+askLlama.py
+testLlama.py
